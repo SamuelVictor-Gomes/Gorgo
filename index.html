@@ -1,112 +1,258 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gorgo</title>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E-School</title>
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="/css/all.css">
+    <!--Font Poppins-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--CSS Link-->
+    <link rel="icon" href="images/icon.png">
     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <div class="logo">
-                <img src="images/logo.PNG" alt="Logo">
+    
+  </head>
+  <body>
+    <!--Header Part Start Here-->
+    <div class="header">
+        <div class="container">
+            <!--Logo & Navbar Start Here-->
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-fluid" alt="Logo"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-item btn btn-signin" aria-current="page" href="#">Books</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-item btn btn-signin" href="#">Courses</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-item btn btn-signin" href="#">Others</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-item btn-signin btn" href="#">Blog</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-item btn btn-signin" href="#">Sign In</a>
+                          </li>
+                                                   
+                        </ul>
+                        
+                      </div>
+                    </div>
+                  </nav>
             </div>
-            <div class="menu_bar">
-                <ul>
-                    <li>Demos</li>
-                    <li>Features</li>
-                    <li>Documentation</li>
-                </ul>
-            </div>
-            <div class="purchase_button">
-                <button type="button">Pruchase Theme $29</button>
-            </div>
-        </div>
-        <div class="banner">
-            <div class="left_side">
-                <h1>Minimal Content<br>
-                Focused Blog & <br>
-                Magazine</h1>
-                <p>Gorgo is a minimal content focused Blog and Magazine
-                Theme.  Use it to write posts, create a magazine, share your
-                ideas and desires</p>
-                <a href="#"><img src="images/down_arrow_icon.PNG" alt="down arrow"></a>
-            </div>
-            <div class="right_side">
-                <img src="images/banner.PNG" alt="Banner Image">
-            </div>
-        </div>
-        <div class="content">
-            <h1>Our Stunning Demo</h1>
-            <p>Start with a unique demo to create an awesome personal blog, magazine or <br> focused content site</p>
-            <div class="body_img1">
-                <img src="images/body_img1.PNG" alt="Body 1">
-                <h2>Classic</h2>
-            </div>
-            <div class="body_img2">
-                <img src="images/body_img2.PNG" alt="Body 2">
-                <h2>Shop</h2>
-            </div>
-            <div class="body_img3">
-                <img src="images/body_img3.PNG" alt="Body 3">
-                <h2>Dark Mode</h2>
-            </div>
-            <div class="body_img4">
-                <img src="images/body_img4.PNG" alt="Body 4">
-                <h2>Minimal</h2>
-            </div>
-        </div>
-        <div class="middle_stroke">
-            <div class="div1"></div>
-            <div class="div2"></div>
-        </div>
-        <div class="all_item">
-            <h1>Features</h1>
-            <p>A quick tour of the main features</p>
-            <div class="row_1">
-                <div class="item_1">
-                    <img src="images/item_1.PNG" alt="item1">
-                    <h2>Fully Customizable</h2>
-                    <p>Create an unlimited number of pages using widgets, menus and the WordPress Customizer. Without the hassle of bloated  features and hundred of admin settings.
-                    </p>
+            <!--Logo & Navbar End Here-->
+
+            <!--Banner Part Start Here-->
+            <div class="row banner-padding">
+                <div class="col-md-6 banner-content">
+                    <h5>Are you ready to Learn?</h5>  
+                    <h1>Learn With fun on <span> any schedule </span></h1>  
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
+                    <a href="" class="btn btn-started">Get Started</a>
                 </div>
-                <div class="item_2">
-                    <img src="images/item_2.PNG" alt="item2">
-                    <h2>Simple Demo Import</h2>
-                    <p>Robust and very simple demo importer: posts, sample sliders, widgets, theme options and more are imported in one minute </p>
+                <div class="col-md-6">
+                    <img src="images/banner.png" class="img-fluid" alt="">
                 </div>
-                <div class="item_3">
-                    <img src="images/item_3.PNG" alt="item3">
-                    <h2>Paid & Free Membership</h2>
-                    <p>Create an unlimited number of pages using widgets, menus and the WordPress Customizer. Without the hassle of bloated  features and hundred of admin settings. </p>
-                </div>
-            </div>
-            <div class="row_2">
-                <div class="item_4">
-                    <img src="images/item_4.PNG" alt="item4">
-                    <h2>Sell Digital & Physical Products</h2>
-                    <p>Create an unlimited number of pages using widgets, menus and the WordPress Customizer. Without the hassle of bloated  features and hundred of admin settings.</p>
-                </div>
-                <div class="item_5">
-                    <img src="images/item_5.PNG" alt="item5">
-                    <h2>Like Posts</h2>
-                    <p>Robust and very simple demo importer: posts, sample sliders, widgets, theme options and more are imported in one minute </p>
-                </div>
-                <div class="item_6">
-                    <img src="images/item_6.PNG" alt="item6">
-                    <h2>Responsive is not an option anymore</h2>
-                    <p>Robust and very simple demo importer: posts, sample sliders, widgets, theme options and more are imported in one minute </p>
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-            <h1>Purchase Gorgo Now<br> and Make Your Project<br> Easier</h1>
-            <div class="purchase_button_2">
-                <button type="button">Pruchase Theme $29</button>
             </div>
         </div>
     </div>
-</body>
+    <!--Header Part End Here-->
+
+    <!--Feature Part Start Here-->
+    <div class="feature_part">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-3">
+                    <div class="feature">
+                        <img src="images/item1.png" alt="Item 1" class="img-fluid item1-height-width">
+                        <h2>1500+ Topic</h2>
+                        <p>Learn Anythings</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-3">
+                    <div class="feature">
+                        <img src="images/item2.png" alt="Item 2" class="img-fluid item2-height-width">
+                        <h2>1800+ Students</h2>
+                        <p>Learn Anythings</p>
+                    </div>
+                </div>
+            
+            
+                <div class="col-md-3">
+                    <div class="feature">
+                        <img src="images/item3.png" alt="Item 3" class="img-fluid item3-height-width">
+                        <h2>9K+ Test Token</h2>
+                        <p>Learn Anythings</p>
+                    </div>
+                </div>          
+                <div class="col-md-3">
+                    <div class="feature">
+                        <img src="images/item4.png" alt="Item 4" class="img-fluid item4-height-width">
+                        <h2>2000+ Student</h2>
+                        <p>Learn Anythings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Feature Part End Here-->
+    
+    <!--Course Part Start Here-->
+    <div class="course_part">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="title">
+                        <h1>Online Courses</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="course">
+                        <img src="images/course1.png" alt="Course 1" class="img-fluid">
+                        <h1>Modern Psychology</h1>
+                        <p>Designation</p>
+                        <a href="#" class="btn btn-course">Buy Course</a>
+                        <ul>
+                            <li><i class="far fa-calendar-alt"></i>Start 20  April, 2021</li>
+                            <li><i class="fas fa-user-friends"></i>60 seats</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="course">
+                        <img src="images/course2.png" alt="Course 2" class="img-fluid">
+                        <h1>Modern Psychology</h1>
+                        <p>Designation</p>
+                        <a href="#" class="btn btn-course">Buy Course</a>
+                        <ul>
+                            <li><i class="far fa-calendar-alt"></i>Start 20  April, 2021</li>
+                            <li><i class="fas fa-user-friends"></i>60 seats</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="course">
+                        <img src="images/course3.png" alt="Course 3" class="img-fluid">
+                        <h1>Modern Psychology</h1>
+                        <p>Designation</p>
+                        <a href="#" class="btn btn-course">Buy Course</a>
+                        <ul>
+                            <li><i class="far fa-calendar-alt"></i>Start 20  April, 2021</li>
+                            <li><i class="fas fa-user-friends"></i>60 seats</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Course Part End Here-->
+
+    <!--Testimonial Part Start Here-->
+    <div class="testimonial-part">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Testimonial</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+
+                </div>   
+                <div class="col-md-2">
+                    <div class="profile-pic">
+                        <img src="images/11.png" alt="Profile Picture" class="img-fluid">
+                    </div>                                             
+                </div>
+                <div class="col-md-6 paragraph">
+                    <p>There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour, 
+                        or randomised words which don't look even slightly believable.
+                    </p>
+                </div>
+                <div class="col-md-2">
+
+                </div>
+            </div>
+        </div>      
+    </div>
+    <!--Testimonial Part End Here-->
+
+    <!--Footer Part Start Here-->
+    <div class="footer">
+        <div class="container">
+            <div class="row  pt-5 pb-3">
+                <div class="col-md-5">
+                    <p>Millions of people of all ages and from around
+                        the world are improving their lives with us</p>
+                </div>
+                <div class="col-md-7">
+                    <div class="row m-l-auto">
+                        <div class="col-md-4">
+                            <ul>
+                                <li>Course</li>
+                                <li>Graphic Design</li>
+                                <li>Web Design</li>
+                                <li>Business</li>
+                                <li>Marketing</li>
+                                <li>Engineering</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul>
+                                <li>Terms</li>
+                                <li>Graphic Design</li>
+                                <li>Web Design</li>
+                                <li>Business</li>
+                                <li>Marketing</li>
+                                <li>Engineering</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul>
+                                <li>Useful Links</li>
+                                <li>Graphic Design</li>
+                                <li>Web Design</li>
+                                <li>Business</li>
+                                <li>Marketing</li>
+                                <li>Engineering</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col copy-right">
+                    <p>Copyright © 2020 www.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Footer Part End Here-->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
 </html>
+
+<!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>-->
